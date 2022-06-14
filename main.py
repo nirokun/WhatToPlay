@@ -6,7 +6,7 @@ from discord.ext import commands
 from timeit import timeit
 
 # Token Bot
-TOKEN = 'OTYyNDUwNjA1MTA2OTM3OTE3.YlHt-Q.wvloMo1zJ7G9bzjXsO1EC5RfWfQ'
+TOKEN = ''
 
 # Bot instance and prefix
 bot = commands.Bot(command_prefix='!')
