@@ -1,4 +1,5 @@
 import discord
+import os
 from random import choice, randint
 import random
 import discord_webhook
@@ -6,7 +7,7 @@ from discord.ext import commands
 from timeit import timeit
 
 # Token Bot
-TOKEN = ''
+TOKEN = os.environ["token"]
 
 # Bot instance and prefix
 bot = commands.Bot(command_prefix='!')
